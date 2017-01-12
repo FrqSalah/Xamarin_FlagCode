@@ -13,6 +13,11 @@ namespace CountryPhone_Xamarin
 
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
+            var countriesListView = FindViewById<ListView>(Resource.Id.listView1);
+            var adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, CountryData.Countries);
+
+            countriesListView.Adapter = adapter;
+
         }
     }
 }

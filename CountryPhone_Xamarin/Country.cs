@@ -12,10 +12,10 @@ public class Country
     public int cResId { get; set; }
     public int cNum { get; set; }
 
-    public Country(string str, int num)
+    public Country(string str)
     {
         string[] data = str.Split(',');
-        cNum = num;
+        //cNum = num;
         cName = data[0];
         cIso = data[1];
         cCode = Convert.ToInt32(data[2]);
