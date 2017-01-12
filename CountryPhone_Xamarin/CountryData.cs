@@ -1,18 +1,34 @@
-﻿using System.Collections.Generic;
+﻿using Android.Content.Res;
+using System.Collections.Generic;
 using System.IO;
 
 public class CountryData
 {
-    public static List<Country> Countries { get; private set; }
+    public List<Country> Countries { get; private set; }
 
-    static CountryData ()
+    public CountryData ()
     {
         var temp = new List<Country>();
-        var text = File.ReadAllLines("Assets/countries.dat");
-        foreach(var line in text)
+        // Charger le fichier dans le stream
+        var stream = Android.App.Application.Context.Assets.Open("countries.dat");
+
+        // OUvrir le fichier pour le lire ligne par ligne
+        using (StreamReader r = new StreamReader(stream))
         {
-            Country temp_country = new Country(line);
-            temp.Add(temp_country);
+            string line;
+            while ((line = r.ReadLine()) != null)
+            {
+                // Créer un objet Country
+                Country temp_country = new Country(line);
+                // Ajouter l'objet à la liste
+                temp.Add(temp_country);
+            }
         }
+
+        Countries = temp;
+    }
+    public void setCountries(Country temp)
+    {
+        Countries.Add(temp);
     }
 }
