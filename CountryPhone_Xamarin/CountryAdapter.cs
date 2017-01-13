@@ -6,13 +6,21 @@ using Android.App;
 using Android;
 using System.IO;
 using Android.Graphics.Drawables;
+using Java.Lang;
 
 namespace CountryPhone_Xamarin
 {
-    public class CountryAdapter : BaseAdapter<Country>
+    public class CountryAdapter : BaseAdapter<Country>, ISectionIndexer
     {
         Activity context;
         List<Country> countries;
+
+        static CountryData cCoutnries = new CountryData();
+        Java.Lang.Object[] sectionHeaders = SectionIndex.BuildSectionHeaders(cCoutnries.Countries);
+        Dictionary<int, int> positionForSectionMap = SectionIndex.BuildPositionForSectionMap(cCoutnries.Countries);
+        Dictionary<int, int> sectionForPositionMap = SectionIndex.BuildSectionForPositionMap(cCoutnries.Countries);
+
+
         public CountryAdapter(Activity s_context, List<Country> s_countries)
         {
             this.context = s_context;
@@ -38,6 +46,21 @@ namespace CountryPhone_Xamarin
         public override long GetItemId(int position)
         {
             return position;
+        }
+
+        public int GetPositionForSection(int sectionIndex)
+        {
+            return positionForSectionMap[sectionIndex];
+        }
+
+        public int GetSectionForPosition(int position)
+        {
+            return sectionForPositionMap[position];
+        }
+
+        public Java.Lang.Object[] GetSections()
+        {
+            return sectionHeaders;
         }
 
         public override View GetView(int position, View convertView, ViewGroup parent)

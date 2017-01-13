@@ -22,7 +22,7 @@ namespace CountryPhone_Xamarin
 
             //Evenement click sur élément de la liste
             countriesListView.ItemClick += OnItemClick;
-
+            countriesListView.FastScrollEnabled = true;
             // Création de l'adapter pour la listeView
             var adapter = new CountryAdapter(this, cCoutnries.Countries);
             countriesListView.Adapter = adapter;
