@@ -82,7 +82,703 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\flagPhotos\" />
+    <AndroidAsset Include="Assets\flagPhotos\f000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f053.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f054.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f055.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f057.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f063.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f064.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f066.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f067.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f068.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f069.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f073.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f075.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f077.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f078.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f079.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f085.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f086.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f087.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f088.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f089.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f091.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f092.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f093.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f095.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f097.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f098.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f099.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f176.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f177.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f208.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f214.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\flagPhotos\f232.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

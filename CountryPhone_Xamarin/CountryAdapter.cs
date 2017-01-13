@@ -4,6 +4,8 @@ using Android.Widget;
 using System.Collections.Generic;
 using Android.App;
 using Android;
+using System.IO;
+using Android.Graphics.Drawables;
 
 namespace CountryPhone_Xamarin
 {
@@ -42,11 +44,21 @@ namespace CountryPhone_Xamarin
         {
             var view = context.LayoutInflater.Inflate(Resource.Layout.CountryRow, parent, false);
 
-            //var flagPhoto = view.FindViewById<ImageView>(Resource.Id.Photoflag);
+            var flagPhoto = view.FindViewById<ImageView>(Resource.Id.Photoflag);
             var countryName = view.FindViewById<TextView>(Resource.Id.CoutryName);
             var countryCode = view.FindViewById<TextView>(Resource.Id.CoutryCode);
 
-            //Stream stream = context.Assets.Open("f".ImageUrl);
+            // Gérer les photos des drapeaux
+            Stream stream;
+            if (position < 10)
+                 stream = context.Assets.Open("flagPhotos/f00" + position+".png");
+            else if (position > 9 && position < 100)
+                stream = context.Assets.Open("flagPhotos/f0" + position + ".png");
+            else
+                 stream = context.Assets.Open("flagPhotos/f" + position + ".png");
+
+            Drawable drawable = Drawable.CreateFromStream(stream, null);
+            flagPhoto.SetImageDrawable(drawable);
             countryName.Text = countries[position].cName;
             countryCode.Text = countries[position].cCodeStr;
 
