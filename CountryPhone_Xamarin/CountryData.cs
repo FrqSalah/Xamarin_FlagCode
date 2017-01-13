@@ -2,33 +2,36 @@
 using System.Collections.Generic;
 using System.IO;
 
-public class CountryData
+namespace CountryPhone_Xamarin
 {
-    public List<Country> Countries { get; private set; }
-
-    public CountryData ()
+    public class CountryData
     {
-        var temp = new List<Country>();
-        // Charger le fichier dans le stream
-        var stream = Android.App.Application.Context.Assets.Open("countries.dat");
+        public List<Country> Countries { get; private set; }
 
-        // OUvrir le fichier pour le lire ligne par ligne
-        using (StreamReader r = new StreamReader(stream))
+        public CountryData()
         {
-            string line;
-            while ((line = r.ReadLine()) != null)
-            {
-                // Créer un objet Country
-                Country temp_country = new Country(line);
-                // Ajouter l'objet à la liste
-                temp.Add(temp_country);
-            }
-        }
+            var temp = new List<Country>();
+            // Charger le fichier dans le stream
+            var stream = Android.App.Application.Context.Assets.Open("countries.dat");
 
-        Countries = temp;
-    }
-    public void setCountries(Country temp)
-    {
-        Countries.Add(temp);
+            // OUvrir le fichier pour le lire ligne par ligne
+            using (StreamReader r = new StreamReader(stream))
+            {
+                string line;
+                while ((line = r.ReadLine()) != null)
+                {
+                    // Créer un objet Country
+                    Country temp_country = new Country(line);
+                    // Ajouter l'objet à la liste
+                    temp.Add(temp_country);
+                }
+            }
+
+            Countries = temp;
+        }
+        public void setCountries(Country temp)
+        {
+            Countries.Add(temp);
+        }
     }
 }

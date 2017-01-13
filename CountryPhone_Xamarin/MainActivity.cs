@@ -2,28 +2,41 @@
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
+using System;
 
 namespace CountryPhone_Xamarin
 {
     [Activity(Label = "Countries Phone code", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+        public CountryData cCoutnries = new CountryData();
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            SetContentView (Resource.Layout.Main);
+            SetContentView(Resource.Layout.Main);
 
-            CountryData cdate = new CountryData();
             // Récupération des identifiants
-            var countriesListView = FindViewById<ListView>(Resource.Id.listView1);
+            var countriesListView = FindViewById<ListView>(Resource.Id.cListe);
 
-            // Cr"éation de l'adapter pour la listeView
-            var adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, cdate.Countries);
+            //Evenement click sur élément de la liste
+            countriesListView.ItemClick += OnItemClick;
 
+            // Création de l'adapter pour la listeView
+            var adapter = new CountryAdapter(this, cCoutnries.Countries);
             countriesListView.Adapter = adapter;
 
+        }
+
+        private void OnItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var country = cCoutnries.Countries[e.Position];
+
+            var dialog = new AlertDialog.Builder(this);
+            dialog.SetMessage(country.cName+"/"+country.cIso+"/"+country.cCodeStr);
+            dialog.SetNeutralButton("OK", delegate { });
+            dialog.Show();
         }
     }
 }
