@@ -42,12 +42,21 @@ namespace CountryPhone_Xamarin
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            var view = context.LayoutInflater.Inflate(Resource.Layout.CountryRow, parent, false);
+            var view = convertView;           
+            if (view == null)
+            {
+                view = context.LayoutInflater.Inflate(Resource.Layout.CountryRow, parent, false);
 
-            var flagPhoto = view.FindViewById<ImageView>(Resource.Id.Photoflag);
-            var countryName = view.FindViewById<TextView>(Resource.Id.CoutryName);
-            var countryCode = view.FindViewById<TextView>(Resource.Id.CoutryCode);
+                var flagPhoto = view.FindViewById<ImageView>(Resource.Id.Photoflag);
+                var countryName = view.FindViewById<TextView>(Resource.Id.CoutryName);
+                var countryCode = view.FindViewById<TextView>(Resource.Id.CoutryCode);
 
+                var vh = new ViewHolder() { flagPhoto = flagPhoto, countryName = countryName, countryCode = countryCode };
+                view.Tag = vh;
+            }
+
+            var holder = (ViewHolder)view.Tag;
+            
             // Gérer les photos des drapeaux
             Stream stream;
             if (position < 10)
@@ -58,9 +67,9 @@ namespace CountryPhone_Xamarin
                  stream = context.Assets.Open("flagPhotos/f" + position + ".png");
 
             Drawable drawable = Drawable.CreateFromStream(stream, null);
-            flagPhoto.SetImageDrawable(drawable);
-            countryName.Text = countries[position].cName;
-            countryCode.Text = countries[position].cCodeStr;
+            holder.flagPhoto.SetImageDrawable(drawable);
+            holder.countryName.Text = countries[position].cName;
+            holder.countryCode.Text = countries[position].cCodeStr;
 
             return view;
         }
