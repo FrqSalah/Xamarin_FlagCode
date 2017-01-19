@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/rorder24"
+      android:icon="@drawable/rorder24"
+      android:showAsAction="always"
+      android:title="Reorder" />
+  <item
+       android:id="@+id/Search24"
+       android:icon="@drawable/Search24"
+       android:showAsAction="always"
+       android:actionViewClass="Android.Support.V7.Widget.SearchView"
+       android:title="Search" />
+</menu>
