@@ -1,17 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:app="http://schemas.android.com/apk/res-auto">
-  <item
-       android:id="@+id/reorder"
-       android:icon="@drawable/reorder24"
-        android:orderInCategory="1"
-        android:title="Reorder"
-       app:showAsAction="always"/>
-  <item
-       android:id="@+id/Search24"
-       android:icon="@drawable/ic_search_black_36dp"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/Search"
         android:title="Search"
-        app:showAsAction="always"
-        android:orderInCategory="2"
-       app:actionViewClass="Android.Support.V7.Widget.SearchView" />
+        android:icon="@drawable/ic_search_black_36dp"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+  <item android:id="@+id/Reorder"
+        android:title="Reorder"
+        android:icon="@drawable/rorder24"
+        app:showAsAction="always|collapseActionView"/>
 </menu>
